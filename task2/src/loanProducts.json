@@ -1,0 +1,38 @@
+[
+    {
+        "productName": "Loan Product General",
+        "date": "12.12.2021",
+        "minAmount": "500",
+        "maxAmount": "1500",
+        "minTerm": "40",
+        "maxTerm": "50",
+        "annualRate": "5"
+    },
+    {
+        "productName": "Loan Product 3000",
+        "date": "12.12.2021",
+        "minAmount": "3000",
+        "maxAmount": "5000",
+        "minTerm": "20",
+        "maxTerm": "30",
+        "annualRate": "3"
+    },
+    {
+        "productName": "Loan Product 1000",
+        "date": "12.12.2021",
+        "minAmount": "1000",
+        "maxAmount": "3000",
+        "minTerm": "60",
+        "maxTerm": "80",
+        "annualRate": "7"
+    },
+    {
+        "productName": "Loan Product для своих",
+        "date": "12.12.2021",
+        "minAmount": "6000",
+        "maxAmount": "8000",
+        "minTerm": "90",
+        "maxTerm": "100",
+        "annualRate": "10"
+    }
+]

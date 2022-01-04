@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+    color: white;
+    font-size: 24px;
+    background-color: #0F0F0F;
+    height: 60px;
+    width: 100%;
+    padding: 0px 18px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.main {
+    padding-top: 60px;
+    display: flex;
+    height: calc(100vh - 60px);
+    width: 100%;
+}
+
+.menu-list {
+    overflow-y: auto;
+    width: 290px;
+    border-right: 1px solid #E0E0E0;
+}
+
+.edit-block {
+    overflow-y: auto;
+    margin: 0px 22px;
+    width: calc(100% - 290px);
+}
+
+.product-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 1px solid #E0E0E0;
+    height: 68px;
+    color: #000000;
+}
+
+.active {
+    background-color: #F7F7F7;
+    border-right: 3px solid #2588E3;;
+}
+
+.create-product-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    margin: 10px 17px 10px 18px;
+    height: 36px;
+    background-color: #0F0F0F;
+    color: white;
+    border-radius: 4px;
+}
+
+.product-date {
+    margin-left: 18px;
+    font-size: 11px;
+    color: #949494;
+}
+
+.product-name {
+    margin-left: 18px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.edit-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #E0E0E0;
+    height: 80px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+}
+
+.product-name-text {
+    margin: 21px 0px 3px 0px;
+}
+
+.edit-product-name-input {
+    padding-left: 10px;
+    font-size: 14px;
+    height: 36px;
+    border: 1px solid #EFEFEF;
+    border-radius: 4px;
+    color: #959595;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.input-form {
+    width: 50%;
+    margin-top: 25px;
+    flex-direction: column;
+}
+
+.input {
+    margin-top: 3px;
+    padding-left: 10px;
+    height: 36px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #959595;
+    border: 1px solid #EFEFEF;
+    box-sizing: border-box;
+
+}
+
+
+.edit-block-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.save-button {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    color: #FFFFFF;
+    width: 126px;
+    height: 36px;
+    background: #2588E3;
+    border-radius: 4px;
+}
+
+.amount-input-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.term-input-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.first-list-input {
+    box-sizing: border-box;
+    padding-right: 23px;
+    
+}
